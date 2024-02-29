@@ -81,9 +81,6 @@ const handleTransactionDeleted = (id) => {
   transactions.value = transactions.value.filter(
     (transaction) => transaction.id !== id
   );
-
-  toast.success("Transaction deleted!");
-
   toast.success("Transaction deleted!");
 };
 
